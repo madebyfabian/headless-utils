@@ -1,0 +1,21 @@
+{
+  "name": "headless-utils",
+  "version": "1.0.0",
+  "description": "My collection of headless utils and Vue.js components I use across projects.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run vue3-dev",
+    "vue3-dev": "cd ./demo/vue3 && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madebyfabian/headless-utils.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madebyfabian/headless-utils/issues"
+  },
+  "homepage": "https://github.com/madebyfabian/headless-utils#readme"
+}
