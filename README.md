@@ -1,6 +1,12 @@
 # headless-utils
 My collection of headless utils and Vue.js components I use across projects.
 
+## Installation
+Install this GitHub Repo globally in your project like this:
+```bash
+npm i madebyfabian/headless-utils
+```
+
 ## skip-navigation
 Heavily inspired from https://github.com/vue-a11y/vue-skip-to/tree/next.
 
@@ -12,6 +18,6 @@ Heavily inspired from https://github.com/vue-a11y/vue-skip-to/tree/next.
 </template>
 
 <script setup>
-	import SkipNavigation from 'github:madebyfabian/headless-utils/src/vue3/skip-navigation'
+	import SkipNavigation from 'headless-utils/src/vue3/skip-navigation'
 </script>
 ```
