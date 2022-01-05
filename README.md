@@ -12,6 +12,6 @@ Heavily inspired from https://github.com/vue-a11y/vue-skip-to/tree/next.
 </template>
 
 <script setup>
-	import SkipNavigation from 'madebyfabian/headless-utils/src/vue3/skip-navigation'
+	import SkipNavigation from 'github:madebyfabian/headless-utils/src/vue3/skip-navigation'
 </script>
 ```
