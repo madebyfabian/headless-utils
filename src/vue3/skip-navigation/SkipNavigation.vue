@@ -1,15 +1,15 @@
 <template>
-  <div
-    class="SkipNavigation"
-    ref="skipTo"
-    :class="{ 'isFocused': focused }"
-  >
-    <SkipNavigationElement
-      @focused="focusWithin"
-      @focus-within="focusWithin"
-      v-bind="props"
-    />
-  </div>
+	<div
+		class="SkipNavigation"
+		ref="skipTo"
+		:data-is-focused="isFocused"
+	>
+		<SkipNavigationElement
+			@focused="focusWithin"
+			@focus-within="focusWithin"
+			v-bind="props"
+		/>
+	</div>
 </template>
 
 <script>
@@ -36,7 +36,7 @@ export default {
   },
   data () {
     return {
-      focused: false
+      isFocused: false
     }
   },
   mounted () {
@@ -53,7 +53,7 @@ export default {
   },
   methods: {
     focusWithin (val) {
-      this.focused = val
+      this.isFocused = val
     }
   }
 }
