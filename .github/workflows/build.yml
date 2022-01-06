@@ -19,6 +19,10 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+    - name: Now get the new version in package.json
+      id: package-version
+      uses: pchynoweth/action-get-npm-version@master
+
     - name: Make release
       uses: marvinpinto/action-automatic-releases@latest
       with:
