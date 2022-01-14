@@ -21,3 +21,6 @@ Heavily inspired from https://github.com/vue-a11y/vue-skip-to/tree/next.
 	import SkipNavigation from 'headless-utils/src/vue3/skip-navigation'
 </script>
 ```
+
+## headless-accordion
+Use https://www.aditus.io/patterns/accordion/#vue-js 
