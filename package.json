@@ -1,6 +1,6 @@
 {
   "name": "headless-utils",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "My collection of headless utils and Vue.js components I use across projects.",
   "main": "index.js",
   "scripts": {
