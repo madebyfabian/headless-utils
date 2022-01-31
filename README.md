@@ -7,6 +7,7 @@ Install this GitHub Repo globally in your project like this:
 npm i madebyfabian/headless-utils
 ```
 
+# Patterns
 ## skip-navigation
 Heavily inspired from https://github.com/vue-a11y/vue-skip-to/tree/next.
 
@@ -22,5 +23,8 @@ Heavily inspired from https://github.com/vue-a11y/vue-skip-to/tree/next.
 </script>
 ```
 
-## headless-accordion
+## Headless Accordion/Disclosure
 Use https://www.aditus.io/patterns/accordion/#vue-js 
+
+## Headless Notifications
+Use https://github.com/sansil/vt-notifications
